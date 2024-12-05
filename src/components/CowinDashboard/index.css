@@ -1,0 +1,24 @@
+/* Write your CSS here */
+
+.cowin-con {
+  background-color: #161625;
+  height: 100vh;
+  padding: 20px 40px 20px 40px;
+}
+.cowin-logo-heading-con {
+  display: flex;
+  align-items: center;
+}
+.website-logo {
+  color: #ffffff;
+  width: 50px;
+  margin-right: 20px;
+}
+.co-win-heading {
+  font-family: 'Roboto';
+  color: #2cc6c6;
+}
+
+.cowin-heading {
+  color: #ffffff;
+}
