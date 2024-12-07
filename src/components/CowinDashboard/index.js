@@ -60,8 +60,8 @@ class CowinDashBoard extends Component {
         </div>
         <h1 className="cowin-heading">CoWIN Vaccination in India</h1>
         <VaccinationCoverage data={last7DaysVaccination} />
-        {/* <VaccinationByAge data={vaccinationByAge} /> 
-        <VaccinationByGender data={vaccinationByGender} /> */}
+        <VaccinationByAge data={vaccinationByAge} />
+        <VaccinationByGender data={vaccinationByGender} />
       </div>
     )
   }
