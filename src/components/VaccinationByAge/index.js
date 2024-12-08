@@ -3,28 +3,27 @@ import {PieChart, Pie, Cell, Legend, ResponsiveContainer} from 'recharts'
 
 const VaccinationByAge = props => {
   const {data} = props
-  console.log(data)
+  //   console.log(data)
 
   return (
-    <ResponsiveContainer height={500} width="100%">
-      <PieChart>
-        <Pie
-          data={data}
-          dataKey="count"
-          cx="50%"
-          cy="50%"
-          startAngle={0}
-          endAngle={360}
-          innerRadius="25%"
-          outerRadius="50%"
-        >
-          <Cell name="18-44" fill=" #f54394" />
-          <Cell name="45-60" fill="#2d87bb" />
-          <Cell name="Above 60" fill="#2cc6c6" />
-        </Pie>
-        <Legend />
-      </PieChart>
-    </ResponsiveContainer>
+    // <ResponsiveContainer height={500} width="100%">
+    <PieChart width={1000} height={300}>
+      <Pie
+        data={data}
+        dataKey="count"
+        cx="50%"
+        cy="50%"
+        startAngle={0}
+        endAngle={360}
+        outerRadius="40%"
+      >
+        <Cell name="18-44" fill=" #64c2a6" />
+        <Cell name="45-60" fill="#a3df9f" />
+        <Cell name="Above 60" fill="#2d87bb" />
+      </Pie>
+      <Legend />
+    </PieChart>
+    // </ResponsiveContainer>
   )
 }
 

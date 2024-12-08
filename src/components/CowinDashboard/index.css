@@ -13,6 +13,7 @@
   color: #ffffff;
   width: 50px;
   margin-right: 20px;
+  font-family: 'Roboto';
 }
 .co-win-heading {
   font-family: 'Roboto';
@@ -20,5 +21,38 @@
 }
 
 .cowin-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.charts-con {
+  margin-bottom: 50px;
+  background-color: #1c1c2b;
+  padding: 10px 40px 10px 40px;
+}
+.vaccination-headings {
+  font-family: 'Roboto';
+  color: #6c757d;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.loading-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.failure-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-img {
+  height: 400px;
+  max-width: 600px;
+}
+.failure-heading {
+  font-family: 'Bree Serif';
+  font-size: 30px;
   color: #ffffff;
 }
